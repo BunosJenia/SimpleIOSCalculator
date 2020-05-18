@@ -13,6 +13,8 @@
 		E3B2E77824728E080073E62A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B2E77624728E080073E62A /* Main.storyboard */; };
 		E3B2E77A24728E0F0073E62A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B2E77924728E0F0073E62A /* Assets.xcassets */; };
 		E3B2E77D24728E0F0073E62A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B2E77B24728E0F0073E62A /* LaunchScreen.storyboard */; };
+		E3B2E7852472B7DF0073E62A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E3B2E7842472B7DE0073E62A /* README.md */; };
+		E3B2E7872472B7FE0073E62A /* details.png in Resources */ = {isa = PBXBuildFile; fileRef = E3B2E7862472B7FD0073E62A /* details.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E3B2E77924728E0F0073E62A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3B2E77C24728E0F0073E62A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3B2E77E24728E0F0073E62A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B2E7842472B7DE0073E62A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E3B2E7862472B7FD0073E62A /* details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = details.png; path = ../../../Desktop/details.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		E3B2E76424728E070073E62A = {
 			isa = PBXGroup;
 			children = (
+				E3B2E7862472B7FD0073E62A /* details.png */,
+				E3B2E7842472B7DE0073E62A /* README.md */,
 				E3B2E76F24728E070073E62A /* SwiftCalculator */,
 				E3B2E76E24728E070073E62A /* Products */,
 			);
@@ -127,6 +133,8 @@
 			files = (
 				E3B2E77D24728E0F0073E62A /* LaunchScreen.storyboard in Resources */,
 				E3B2E77A24728E0F0073E62A /* Assets.xcassets in Resources */,
+				E3B2E7852472B7DF0073E62A /* README.md in Resources */,
+				E3B2E7872472B7FE0073E62A /* details.png in Resources */,
 				E3B2E77824728E080073E62A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = y.bunas.SwiftCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = y.bunas.SwiftCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

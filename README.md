@@ -1,7 +1,6 @@
 
 ## Calculator App
 
-Simple calculator with standart function
+Simple calculator with standart functions.
 
-Main Page.
 ![Main Page](details.png)

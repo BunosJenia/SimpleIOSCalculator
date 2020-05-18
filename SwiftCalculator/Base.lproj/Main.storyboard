@@ -349,7 +349,7 @@
                                                         <rect key="frame" x="187" y="0.0" width="187" height="119.5"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWx-FZ-KKo">
-                                                                <rect key="frame" x="1" y="0.0" width="92" height="118.5"/>
+                                                                <rect key="frame" x="0.5" y="0.0" width="92.5" height="118.5"/>
                                                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="36"/>
                                                                 <state key="normal" title=".">
@@ -376,7 +376,7 @@
                                                             <constraint firstItem="8PU-qd-cvy" firstAttribute="top" secondItem="ilh-hz-OQC" secondAttribute="top" id="0Bf-K5-znm"/>
                                                             <constraint firstAttribute="bottom" secondItem="8PU-qd-cvy" secondAttribute="bottom" constant="1" id="FVm-vV-N5g"/>
                                                             <constraint firstAttribute="bottom" secondItem="BWx-FZ-KKo" secondAttribute="bottom" constant="1" id="Sso-qz-hPm"/>
-                                                            <constraint firstItem="BWx-FZ-KKo" firstAttribute="leading" secondItem="ilh-hz-OQC" secondAttribute="leading" constant="1" id="TMJ-vY-EcS"/>
+                                                            <constraint firstItem="BWx-FZ-KKo" firstAttribute="leading" secondItem="ilh-hz-OQC" secondAttribute="leading" constant="0.5" id="TMJ-vY-EcS"/>
                                                             <constraint firstItem="8PU-qd-cvy" firstAttribute="width" secondItem="BWx-FZ-KKo" secondAttribute="width" id="W51-FJ-Djr"/>
                                                             <constraint firstItem="8PU-qd-cvy" firstAttribute="leading" secondItem="BWx-FZ-KKo" secondAttribute="trailing" constant="1" id="ej2-3f-toV"/>
                                                             <constraint firstAttribute="trailing" secondItem="8PU-qd-cvy" secondAttribute="trailing" constant="1" id="kod-ZM-gH8"/>
